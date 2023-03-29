@@ -115,6 +115,37 @@ fetch(`http://localhost:3000/likes`)
 })
 
 
+let form = document.querySelector('#new-quote-form')
+
+form.addEventListener('submit',(e)=>{
+    e.preventDefault();
+    
+
+    let wrds = document.getElementById('new-quote').value
+    let auth = document.getElementById('author').value
+
+    let newV = {
+        quote: wrds,
+        author : auth
+    }
+
+    let data = {quoteId: 0, createdAt: new Date().getTime()}
+
+    fetch('http://localhost:3000/quotes',{
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(newV)
+    })
+
+    fetch('http://localhost:3000/likes',{
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(data)
+    })
+
+    form.reset();
+
+})
 
 
 
