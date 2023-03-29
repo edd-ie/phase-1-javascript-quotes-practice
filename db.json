@@ -58,14 +58,58 @@
   ],
   "likes": [
     {
-      "id": 1,
-      "quoteId": 1,
-      "createdAt": 1558524356
+      "quoteId": 12,
+      "id": 1
     },
     {
-      "quoteId": 10,
+      "quoteId": 11,
       "id": 2,
       "createdAt": 1558524358
+    },
+    {
+      "id": 3,
+      "quoteId": 2,
+      "createdAt": 1680066771502
+    },
+    {
+      "id": 6,
+      "quoteId": 1,
+      "createdAt": 1680066771505
+    },
+    {
+      "id": 4,
+      "quoteId": 1,
+      "createdAt": 1680066771503
+    },
+    {
+      "id": 7,
+      "quoteId": 1,
+      "createdAt": 1680066771505
+    },
+    {
+      "id": 5,
+      "quoteId": 1,
+      "createdAt": 1680066771504
+    },
+    {
+      "id": 8,
+      "quoteId": 1,
+      "createdAt": 1680066771506
+    },
+    {
+      "id": 9,
+      "quoteId": 1,
+      "createdAt": 1680066771507
+    },
+    {
+      "id": 10,
+      "quoteId": 1,
+      "createdAt": 1680066771508
+    },
+    {
+      "id": 11,
+      "quoteId": 1,
+      "createdAt": 1680066865732
     }
   ]
 }
